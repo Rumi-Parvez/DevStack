@@ -27,16 +27,13 @@ https://github.com/Rumi-Parvez/DevStack
 
 ---
 
-## 📸 Project Screenshot
-
-Add a screenshot of the project to the repository and place it here:
-
-```md
-![Dev Stack Builder Screenshot](./screenshot.png)
-```
-
-> Recommended: Use a screenshot that clearly shows the main interface, technology cards, and the selected stack section.
-
+<p align="center">
+  <img 
+    src="https://i.postimg.cc/GhyNb3Df/3.png" 
+    alt="Dev Stack Builder Project Cover" 
+    width="100%" 
+  />
+</p>
 ---
 
 # ✨ Main Features
