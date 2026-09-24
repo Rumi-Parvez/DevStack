@@ -1,212 +1,200 @@
 # 🚀 Dev Stack Builder
 
-> **Build your development stack. Explore technologies. Choose your tools.**
+> **Explore technologies. Build your stack. Choose the tools for your development journey.**
 
-🌐 **Live Website:** https://dev-stack.openyhool.com/
-
-**Dev Stack Builder** is an interactive web application that allows developers and learners to explore different development technologies and create their own personalized technology stack.
-
-Users can browse technologies, learn about them through detailed cards, and add their preferred technologies to their personal stack.
+[![Live Website](https://img.shields.io/badge/Live%20Website-dev--stack.openyhool.com-blue?style=for-the-badge)](https://dev-stack.openyhool.com/)
+[![GitHub](https://img.shields.io/badge/GitHub-Rumi--Parvez-181717?style=for-the-badge\&logo=github)](https://github.com/Rumi-Parvez/DevStack)
 
 ---
 
-## ✨ Features
+## 📌 Project Overview
 
-* 📚 Browse a collection of development technologies
-* 🔎 Explore technology information through interactive cards
-* ➕ Add technologies to your personal stack
-* 🚫 Prevent duplicate technologies
-* 🔒 Disable the **Add to Stack** button for already-selected technologies
-* 🗑️ Remove individual technologies
-* 🧹 Remove all technologies from the stack
-* 🔢 Display the number of selected technologies
-* 🔔 Toast notifications for user actions
-* ⏳ Loading state while fetching technology data
-* 📱 Fully responsive design
-* 🎨 Modern and clean user interface
-* ⚡ Fast and interactive user experience
+**Dev Stack Builder** is a modern interactive web application built for developers and programming learners who want to explore different development technologies and create their own personalized technology stack.
+
+The application displays technology information through interactive cards and allows users to add technologies to their personal stack, manage selected technologies, and receive feedback through interactive notifications.
+
+The project focuses on practicing modern **React, TypeScript, Tailwind CSS, responsive design, component-based architecture, state management, and dynamic data handling**.
 
 ---
 
-## 🖥️ Live Demo
+## 🌐 Live Project
 
-Visit the live application:
+🚀 **Live Website:**
+https://dev-stack.openyhool.com/
 
-👉 **https://dev-stack.openyhool.com/**
-
----
-
-## 🛠️ Technologies Used
-
-| Technology          | Purpose                                       |
-| ------------------- | --------------------------------------------- |
-| ⚛️ React            | Building the user interface                   |
-| 📘 TypeScript       | Type safety and better development experience |
-| 🎨 Tailwind CSS     | Styling and responsive design                 |
-| 🌼 DaisyUI          | UI components                                 |
-| ⚡ Vite              | Development and build tooling                 |
-| 🟨 JavaScript / ES6 | Application logic                             |
-| 🧱 HTML5            | Page structure                                |
-| 🎨 CSS3             | Styling fundamentals                          |
-| 📦 JSON             | Technology data                               |
-| 🔔 React Toastify   | User notifications                            |
+💻 **GitHub Repository:**
+https://github.com/Rumi-Parvez/DevStack
 
 ---
 
-## 🧠 What I Practiced
+## 📸 Project Screenshot
 
-This project was built as a practical frontend development project to apply modern React and TypeScript concepts.
+Add a screenshot of the project to the repository and place it here:
 
-### React
-
-* Components
-* Props
-* State management
-* Event handling
-* Conditional rendering
-* List rendering
-* Reusable components
-* Data loading
-
-### TypeScript
-
-* Interfaces
-* Type definitions
-* Typed props
-* Typed state
-* Typed API/data responses
-* Type-safe component development
-
-### Data Handling
-
-* External JSON data
-* Asynchronous data fetching
-* Loading states
-* Data filtering
-* Array methods
-* Dynamic rendering
-
-### User Interaction
-
-The application provides an interactive stack-building experience.
-
-Users can:
-
-```text
-Explore Technology
-       ↓
-Select Technology
-       ↓
-Add to Stack
-       ↓
-View Selected Stack
-       ↓
-Remove / Manage Technologies
+```md
+![Dev Stack Builder Screenshot](./screenshot.png)
 ```
 
----
-
-## 📂 Project Structure
-
-```text
-src/
-├── assets/
-│   └── images/
-│
-├── components/
-│   ├── Navbar/
-│   ├── Hero/
-│   ├── TechnologyCard/
-│   ├── TechnologyList/
-│   ├── Stack/
-│   └── Footer/
-│
-├── data/
-│   └── technologies.json
-│
-├── pages/
-│
-├── App.tsx
-├── main.tsx
-└── index.css
-```
-
-> The exact structure may vary depending on the final project organization.
+> Recommended: Use a screenshot that clearly shows the main interface, technology cards, and the selected stack section.
 
 ---
 
-## 🎯 Main User Flow
+# ✨ Main Features
 
-### 1. Explore Technologies
+### 📚 Technology Exploration
 
-Users can browse different technologies and see information such as:
+Browse a collection of development technologies and explore their information through interactive cards.
+
+### 🔎 Technology Details
+
+Each technology can provide information such as:
 
 * Technology name
 * Category
 * Description
 * Rating
-* Difficulty
+* Difficulty level
 * Badge
-* Icon
+* Technology icon
 
-### 2. Add to Stack
+### ➕ Add to Stack
 
-When a user finds a technology they want to use, they can add it to their personal stack.
+Users can add technologies they are interested in to their personal development stack.
 
-### 3. Duplicate Protection
+### 🚫 Duplicate Prevention
 
-A technology cannot be added multiple times.
+The same technology cannot be added multiple times.
 
-Once a technology has been added, its button becomes disabled to make the state clear to the user.
+### 🔒 Disabled Selected State
 
-### 4. Manage Stack
+After a technology has been added, its **Add to Stack** action becomes disabled to clearly indicate that it is already selected.
 
-Users can manage their selected technologies by:
+### 🗑️ Remove Technology
 
-* Removing one technology
-* Removing all technologies
+Users can remove individual technologies from their selected stack.
+
+### 🧹 Remove All
+
+Users can clear all selected technologies from the stack.
+
+### 🔢 Stack Counter
+
+The application displays the number of technologies currently selected.
+
+### 🔔 Toast Notifications
+
+Interactive actions provide feedback using **React Toastify** notifications.
+
+### ⏳ Loading State
+
+A loading state is displayed while technology data is being loaded.
+
+### 📱 Responsive Design
+
+The interface is designed to work across:
+
+* Desktop
+* Tablet
+* Mobile
+
+### ⚡ Interactive UI
+
+The interface dynamically updates based on user actions without requiring a page reload.
 
 ---
 
-## 📱 Responsive Design
+# 🛠️ Main Technologies
 
-The application is designed to provide a consistent experience across different screen sizes.
+| Technology            | Usage                                   |
+| --------------------- | --------------------------------------- |
+| ⚛️ **React**          | Building the interactive user interface |
+| 📘 **TypeScript**     | Type-safe application development       |
+| 🎨 **Tailwind CSS**   | Styling and responsive layouts          |
+| 🌼 **DaisyUI**        | UI components and design utilities      |
+| ⚡ **Vite**            | Development server and build tooling    |
+| 🔔 **React Toastify** | Toast notifications                     |
+| 🧩 **React Icons**    | Icons throughout the interface          |
+| 📦 **JSON**           | Structured technology data              |
+| 🧱 **HTML5**          | Application structure                   |
+| 🎨 **CSS3**           | Styling and layout                      |
+
+---
+
+# 🧠 Concepts Practiced
+
+This project was built as a practical frontend development project to apply modern development concepts.
+
+## ⚛️ React
+
+* Functional Components
+* Props
+* State Management
+* Event Handling
+* Conditional Rendering
+* List Rendering
+* Reusable Components
+* Component Composition
+* Dynamic UI Updates
+* Data Loading
+
+## 📘 TypeScript
+
+* Interfaces
+* Type Definitions
+* Typed Props
+* Typed State
+* Type-safe data handling
+* Type-safe component development
+
+## 🎨 Styling
+
+* Tailwind CSS
+* DaisyUI
+* Responsive Design
+* Flexbox
+* Grid Layout
+* Responsive Components
+* Interactive States
+
+## 📊 Data Handling
+
+* JSON data
+* Asynchronous data loading
+* Loading states
+* Array methods
+* Dynamic rendering
+* Data filtering
+* Technology data management
+
+---
+
+# 🔄 Main User Flow
+
+The application's main workflow is:
 
 ```text
-Desktop
-   ↓
-Tablet
-   ↓
-Mobile
+Explore Technologies
+        ↓
+View Technology Information
+        ↓
+Choose a Technology
+        ↓
+Add to Stack
+        ↓
+View Selected Stack
+        ↓
+Manage Selected Technologies
+        ↓
+Remove One / Remove All
 ```
 
-The interface adapts its layout, spacing, cards, navigation, and content according to the available screen size.
-
 ---
 
-## 🎨 UI & UX
+# 📊 Technology Data
 
-The project focuses on creating a simple and developer-friendly experience.
+The application uses structured technology data to dynamically generate the technology cards.
 
-Important UI/UX considerations include:
-
-* Clear navigation
-* Responsive layouts
-* Consistent spacing
-* Technology-focused cards
-* Visible interaction states
-* Disabled states
-* Loading feedback
-* Toast notifications
-* Clear stack management
-
-The goal is to make the application easy to understand even for someone visiting it for the first time.
-
----
-
-## 📊 Technology Data
-
-The application uses structured technology data containing information such as:
+A technology object can contain information such as:
 
 ```json
 {
@@ -221,49 +209,169 @@ The application uses structured technology data containing information such as:
 }
 ```
 
-This makes the application easier to maintain and allows the UI to be generated dynamically from the data.
+Using structured data makes the application easier to maintain and allows the UI to render technologies dynamically.
 
 ---
 
-## ⚡ Getting Started
+# 🎨 UI & UX
 
-Clone the repository:
+The project focuses on creating a clean and developer-friendly interface.
 
-```bash
-git clone YOUR_REPOSITORY_URL
+### UI considerations include:
+
+* Clear navigation
+* Responsive layouts
+* Technology-focused cards
+* Consistent spacing
+* Clear typography
+* Interactive buttons
+* Disabled button states
+* Loading feedback
+* Toast notifications
+* Stack management
+* Responsive navigation
+
+The goal is to provide a simple experience where users can understand the application and start building their stack quickly.
+
+---
+
+# 📱 Responsive Design
+
+The application adapts to different screen sizes:
+
+```text
+Desktop
+   ↓
+Tablet
+   ↓
+Mobile
 ```
 
-Move into the project directory:
+Responsive behavior is applied to the application's:
 
-```bash
-cd dev-stack
+* Navigation
+* Technology cards
+* Layout
+* Spacing
+* Buttons
+* Stack section
+* Content areas
+
+---
+
+# 📂 Project Structure
+
+The project follows a component-based React structure.
+
+```text
+DevStack/
+│
+├── public/
+│
+├── src/
+│   ├── assets/
+│   │
+│   ├── components/
+│   │
+│   ├── data/
+│   │
+│   ├── App.tsx
+│   ├── main.tsx
+│   └── index.css
+│
+├── .gitignore
+├── .oxlintrc.json
+├── index.html
+├── package.json
+├── package-lock.json
+├── tsconfig.app.json
+├── tsconfig.json
+├── tsconfig.node.json
+├── vite.config.ts
+└── README.md
 ```
 
-Install dependencies:
+The repository currently contains the main `public`, `src`, Vite, TypeScript, package, and configuration files used to run the application.
+
+---
+
+# 📦 Dependencies
+
+## Main Dependencies
+
+```text
+react
+react-dom
+react-icons
+react-toastify
+```
+
+## Development Dependencies
+
+```text
+typescript
+vite
+tailwindcss
+daisyui
+@tailwindcss/vite
+@vitejs/plugin-react
+@types/react
+@types/react-dom
+@types/node
+oxlint
+```
+
+> The exact dependency versions are available in the project's `package.json` and `package-lock.json`.
+
+---
+
+# 💻 Run the Project Locally
+
+Follow these steps to run **Dev Stack Builder** on your local machine.
+
+## 1. Clone the Repository
+
+```bash
+git clone https://github.com/Rumi-Parvez/DevStack.git
+```
+
+## 2. Go to the Project Directory
+
+```bash
+cd DevStack
+```
+
+## 3. Install Dependencies
 
 ```bash
 npm install
 ```
 
-Start the development server:
+## 4. Start the Development Server
 
 ```bash
 npm run dev
 ```
 
-Then open the local development URL provided by Vite.
+After starting the development server, open the local URL provided by Vite in your browser.
+
+Usually:
+
+```text
+http://localhost:5173
+```
 
 ---
 
-## 📦 Build for Production
+# 📦 Production Build
 
-Create a production build:
+To create a production-ready build:
 
 ```bash
 npm run build
 ```
 
-Preview the production build:
+To preview the production build locally:
 
 ```bash
 npm run preview
@@ -271,55 +379,91 @@ npm run preview
 
 ---
 
-## 🔮 Future Improvements
+# 🧹 Code Quality
 
-Possible future improvements include:
+The project also includes **Oxlint** for code-quality checking.
 
-* 🔍 Technology search
-* 🏷️ Category filtering
-* ⭐ Rating-based filtering
-* 📊 Technology comparison
-* 💾 Persistent stack storage
-* 🔐 User authentication
-* 👤 Personal developer profiles
-* 🌙 Dark mode
-* 📈 Stack statistics
-* 🔗 Shareable developer stacks
-* ☁️ Backend integration
-* 🗄️ Database support
+Run:
+
+```bash
+npm run lint
+```
+
+This helps identify potential code-quality and linting issues during development.
 
 ---
 
-## 👨‍💻 Developer
+# 🔮 Future Improvements
 
-### Rumi Parvez
+Possible future improvements for the project include:
 
-Frontend Developer & Programming Learner
-
-This project was created as a practical development project to apply React, TypeScript, Tailwind CSS, and modern frontend development concepts in a real-world style application.
-
-The project represents hands-on practice with component architecture, state management, data handling, responsive UI development, and user interaction.
-
----
-
-## 🌐 Project Links
-
-| Resource        | Link                             |
-| --------------- | -------------------------------- |
-| 🚀 Live Website | https://dev-stack.openyhool.com/ |
-| 💻 GitHub       | YOUR_GITHUB_REPOSITORY           |
-| 📚 Project      | Dev Stack Builder                |
+* 🔍 Technology Search
+* 🏷️ Category Filtering
+* ⭐ Rating-based Filtering
+* 📊 Technology Comparison
+* 💾 Persistent Stack Storage
+* 🔐 User Authentication
+* 👤 Developer Profiles
+* 🌙 Dark Mode
+* 📈 Stack Statistics
+* 🔗 Shareable Developer Stacks
+* ☁️ Backend Integration
+* 🗄️ Database Integration
+* 📱 Progressive Web App Support
 
 ---
 
-## ⭐ Support
+# 🎯 Project Goals
+
+The main goals of this project are to:
+
+* Practice modern React development
+* Apply TypeScript in a real project
+* Build reusable components
+* Practice state management
+* Work with structured data
+* Create responsive interfaces
+* Improve UI/UX development skills
+* Build an interactive real-world style application
+
+---
+
+# 👨‍💻 Developer
+
+## Rumi Parvez
+
+**Full-Stack Developer & Software Engineer**
+
+I am passionate about building modern, responsive, and user-focused web applications while continuously learning new technologies and improving my development skills.
+
+This project represents practical experience with **React, TypeScript, Tailwind CSS, component architecture, state management, data handling, responsive design, and interactive UI development**.
+
+### GitHub
+
+https://github.com/Rumi-Parvez
+
+---
+
+# 🔗 Relevant Links
+
+| Resource                   | Link                                    |
+| -------------------------- | --------------------------------------- |
+| 🚀 **Live Website**        | https://dev-stack.openyhool.com/        |
+| 💻 **GitHub Repository**   | https://github.com/Rumi-Parvez/DevStack |
+| 👨‍💻 **Developer GitHub** | https://github.com/Rumi-Parvez          |
+
+---
+
+# ⭐ Support
 
 If you find this project useful or interesting, consider giving the repository a ⭐ on GitHub.
+
+You can also fork the repository and explore the source code.
 
 ---
 
 # 🚀 Build Your Stack. Build Your Future.
 
-**Dev Stack Builder** is more than a technology list — it is a small interactive environment for discovering, selecting, and organizing the technologies that make up a modern developer's toolkit.
+**Dev Stack Builder** is an interactive technology exploration application that helps developers and learners discover technologies and organize their preferred tools into a personalized development stack.
 
 **Made with ❤️ by Rumi Parvez**
